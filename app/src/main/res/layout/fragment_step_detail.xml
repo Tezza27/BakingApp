@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".StepDetail"
+    android:id="@+id/step_fragment_layout">
+
+    <TextView
+        android:id="@+id/step_detail_description_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="@color/colorButtonText"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/back_arrow_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="hds pjsg pjashpjn fp9 npsojng pajn gpjj sffgpjlid pjbpisjdfbp ijbnd fpjvbpaijdfvbpjdabdfvpi jnd dpfvjbn pojbfvpjnb pifidjb pajfgpijblfvb ijbfv pijbapfiv j paifjfvb iajbfpvjb iiabjfi abpa vfpiajbfp fgp jab pajb gp jfpg jba" />
+
+
+    <ImageButton
+        android:id="@+id/back_arrow_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@android:color/transparent"
+        android:paddingRight="96dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_arrow_back"
+        android:contentDescription="TODO"
+        android:paddingEnd="96dp" />
+
+    <ImageButton
+        android:id="@+id/forward_arrow_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@android:color/transparent"
+        android:paddingLeft="96dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_arrow_forward"
+        android:contentDescription="TODO"
+        android:paddingStart="96dp" />
+
+
+
+</android.support.constraint.ConstraintLayout>
